@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <div>Hello World</div>
+    <div>Hello Worl</div>
     {/* <Navbar/> */}
      {/* <Home1/> */}
      {/* <Screen2 /> */}
