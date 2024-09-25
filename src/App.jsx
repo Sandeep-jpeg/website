@@ -11,7 +11,7 @@ function App() {
     {/* <Navbar/> */}
      {/* <Home1/> */}
      {/* <Screen2 /> */}
-     {/* <Industries/> */}
+     <Industries/>
     </>
     
   )
