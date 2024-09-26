@@ -1,12 +1,13 @@
 import React from 'react'
 const Home1 = () => {
     return (
-        <div className=' col-auto'>
-            <div className='Inter  text-[#FF4A5F] font-[600] text-[24px] w-[342px] h-[29px] absolute top-[307px] left-[191px] gap-0'>
+        <div className=''>
+            <section class="w-[1440px] h-[900px]">
+            <div className='Inter  text-[#FF4A5F] font-[600] text-[24px] w-[342px] h-[29px] relative top-[307px] left-[191px] gap-0'>
                 BUILD 2X FASTER 2X BETTER
             </div>
-            <div className='Oswald text-[#252525] font-[500] text-[80px] w-[942px] h-[224px] absolute top-[338px] left-[189px] gap-0'>Design, Build and scale your product journey with us.</div>
-            <div className='w-[172px] h-[59px] absolute top-[636px] left-[189px]'>
+            <div className='Oswald text-[#252525] font-[500] text-[80px] w-[942px] h-[224px] relative top-[338px] left-[189px] gap-0'>Design, Build and scale your product journey with us.</div>
+            <div className='w-[172px] h-[59px] relative top-[450px] left-[189px]'>
                 <svg width="172" height="59" viewBox="0 0 172 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" y="0.5" width="171" height="58" rx="29" stroke="black" />
                     <circle cx="142.5" cy="29.5" r="29.5" fill="#212A33" />
@@ -15,9 +16,9 @@ const Home1 = () => {
                 </svg>
 
             </div>
-            <div className='Inter text-[#AAAEB1] text-[20px] font-semibold leading-[24px] text-left w-[365px] h-[24px] absolute top-[654px] left-[858px]'>Web Design / UX UI / Development</div>
+            <div className='Inter text-[#AAAEB1] text-[20px] font-semibold leading-[24px] text-left w-[365px] h-[24px] relative top-[410px] left-[858px]'>Web Design / UX UI / Development</div>
             
-
+            </section>
         </div>
     )
 }
