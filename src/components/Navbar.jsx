@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='p-[20px] fixed w-full '>
+        <div className='p-[20px] w-full '>
             <nav className="navbar ">
                 <ul className="flex justify-between items-center w-full">
                     <li className="logo">

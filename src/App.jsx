@@ -8,11 +8,11 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-     <Home1/>
+    {/* <Navbar/>
+     <Home1/> */}
      <Screen2 />
      <Industries/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
     
   )

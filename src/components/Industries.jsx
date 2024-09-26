@@ -3,7 +3,7 @@ import React from 'react'
 const Industries = () => {
   return (
     <div>
-      <section className='bg-[#252525] w-full h-[900px]'>
+      <section className='bg-[#18181A] w-full h-[900px]'>
         <div className='w-[781px] h-[125px] relative top-[130px] left-[60px] gap-0'>
 
         <span className='text-[#777778] Oswald text-[100px] font-thin leading-[125px] text-left'>INDUSTRIES</span>
@@ -15,7 +15,7 @@ const Industries = () => {
   <div className="flex space-x-4 w-max px-4">
     {/* Repeat this card 10 times */}
     {Array.from({ length: 10 }).map((_, index) => (
-      <div key={index} className="bg-[#777778] w-[471px] h-[450px] relative top-[200px] px-2 rounded-[20px]">
+      <div key={index} className="bg-[#242426] w-[471px] h-[450px] relative top-[200px] px-2 rounded-[20px]">
         <div className="p-[20px]">
           <h2 className="Inter text-white text-2xl font-semibold leading-7 text-left p-[20px] mb-6">
             Fintech & Financial
