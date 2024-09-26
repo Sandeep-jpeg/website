@@ -1,8 +1,7 @@
 import React from 'react'
-
 const Home1 = () => {
     return (
-        <div className='w-full'>
+        <div className=' col-auto'>
             <div className='Inter  text-[#FF4A5F] font-[600] text-[24px] w-[342px] h-[29px] absolute top-[307px] left-[191px] gap-0'>
                 BUILD 2X FASTER 2X BETTER
             </div>
@@ -17,8 +16,9 @@ const Home1 = () => {
 
             </div>
             <div className='Inter text-[#AAAEB1] text-[20px] font-semibold leading-[24px] text-left w-[365px] h-[24px] absolute top-[654px] left-[858px]'>Web Design / UX UI / Development</div>
-        </div>
+            
 
+        </div>
     )
 }
 
