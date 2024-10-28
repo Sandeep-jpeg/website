@@ -11,7 +11,7 @@ const Industries = () => {
         <span className='text-white Oswald text-[100px] font-[200px] leading-[125px] text-left'>COVERED</span>
 
     </div>
-    <div className="w-full h-[700px] overflow-x-auto overflow-y-hidden">
+    <div className="w-full h-[700px] overflow-x-auto overflow-y-hidden no-scrollbar">
   <div className="flex space-x-4 w-max px-4">
     {/* Repeat this card 10 times */}
     {Array.from({ length: 10 }).map((_, index) => (

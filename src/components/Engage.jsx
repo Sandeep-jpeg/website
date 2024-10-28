@@ -8,10 +8,10 @@ const Engage = () => {
           <span className='Oswald text-[100px] font-[200] leading-[125px] text-left text-[#DADADA]'>HOW WE </span>
           <span className='Oswald text-[100px] font-[400] leading-[125px] text-left'>ENGAGE</span>
         </div>
-        <div className='w-[190px] h-[113px] relative top-[3px] left-[1090px]'>
+        <div className='w-[190px] h-[113px] relative top-[3px] left-[1090px] hover:scale-110 transition-transform duration-300'>
           <img src="src/Media/engageicon.svg" alt="Engage Icon" />
         </div>
-        <div className="w-full h-[600px] overflow-x-auto overflow-y-hidden">
+        <div className="w-full h-[600px] overflow-x-auto overflow-y-hidden no-scrollbar">
           <div className="flex space-x-4 w-max px-4">
             {/* Repeat this card 10 times */}
             {Array.from({ length: 10 }).map((_, index) => (
@@ -19,15 +19,15 @@ const Engage = () => {
                 key={index} // Added a unique key for each card
                 className="relative w-[471px] top-[80px] h-[450px] bg-white rounded-lg p-6 border-[2px] border-gray-300"
               >
-                <h1 className="w-[340px] h-[48px] py-4 text-left font-semibold text-[40px] leading-[48.41px] text-[#e4e4e4] mb-4">
+                <h1 className=" Inter w-[340px] h-[180px] py-4 text-left font-semibold text-[40px] leading-[48.41px] text-[#e4e4e4] mb-4">
                   Cash And Equity
                 </h1>
 
-                <h2 className="w-[215px] h-[39px] text-left font-semibold text-[32px] leading-[38.73px] text-[#212A33] mb-6">
+                <h2 className=" Inter w-[215px] h-[39px] text-left font-semibold text-[32px] leading-[38.73px] text-[#212A33] mb-6">
                   Cash & Equity
                 </h2>
 
-                <p className="w-[412px] h-[96px] text-left text-[16px] font-normal leading-[24px] text-[#7A7A7A]">
+                <p className=" Inter w-[412px] h-[96px] text-left text-[16px] font-normal leading-[24px] text-[#7A7A7A]">
                   We welcome the obscure vision through the Time and Material Model that supports the Agile Development Process. This is a model where the client only pays for the time and resources spent on the project.
                 </p>
               </div>
@@ -35,7 +35,7 @@ const Engage = () => {
             
           </div>
         </div>
-        <div className=' p-5 w-[172px] h-[59px] top-[845px] left-[108px] m-5'>
+        <div className=' p-5 w-[172px] h-[59px] top-[745px] left-[108px] m-5'>
             <a href="#">
         <svg width="172" height="59" viewBox="0 0 172 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" y="0.5" width="171" height="58" rx="29" stroke="black" />
