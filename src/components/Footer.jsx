@@ -90,10 +90,10 @@ const Footer = () => {
         </ul> 
     </div> 
     {/* add padding in images */}
-    <div className=' bg-red-400 flex w-[175px]  h-[51.75px] relative top-[140px] left-[1097px]'>
-    <img src="src/Media/clutch.png" alt="" />
-    <img src="src/Media/gesia-linkedin 1.svg" alt="" />
-    <img src="src/Media/IBM_Cloud_Essentials 1.svg" alt="" />
+    <div className='flex w-[175px] px-4 h-[51.75px] relative top-[140px] left-[1097px]'>
+    <a href="#"><img src="src/Media/clutch.png" alt="" /></a>
+    <a href="#"><img src="src/Media/gesia-linkedin 1.svg" alt="" /></a>
+    <a href="#"><img src="src/Media/IBM_Cloud_Essentials 1.svg" alt="" /></a>
     </div>
     </section>
     </div>

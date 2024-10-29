@@ -4,7 +4,7 @@ const Engage = () => {
   return (
     <div>
       <section className='w-full h-[900px]'>
-        <div className='w-[615px] h-[125px] relative top-[130px] left-[60px]'>
+        <div className='w-[615px] h-[125px] relative top-[120px] left-[60px]'>
           <span className='Oswald text-[100px] font-[200] leading-[125px] text-left text-[#DADADA]'>HOW WE </span>
           <span className='Oswald text-[100px] font-[400] leading-[125px] text-left'>ENGAGE</span>
         </div>
@@ -35,7 +35,7 @@ const Engage = () => {
             
           </div>
         </div>
-        <div className=' p-5 w-[172px] h-[59px] top-[745px] left-[108px] m-5'>
+        <div className='w-[172px] relative h-[59px] top-[-15px] left-[50px]'>
             <a href="#">
         <svg width="172" height="59" viewBox="0 0 172 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="0.5" y="0.5" width="171" height="58" rx="29" stroke="black" />
