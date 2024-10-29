@@ -5,6 +5,7 @@ import Screen2 from './components/Screen2'
 import Industries from './components/Industries'
 import Footer from './components/Footer'
 import Engage from './components/Engage'
+import Talk from './components/Talk'
 function App() {
 
   return (
@@ -14,7 +15,9 @@ function App() {
      <Screen2/>
      <Industries/>
     <Engage />
+    <Talk/>
       <Footer/>
+      
     </>
     
   )
